@@ -1,0 +1,25 @@
+{
+  "name": "naams-vouch-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord pour créer des embeds de vouch",
+  "keywords": [
+    "discord",
+    "bot",
+    "vouch"
+  ],
+  "license": "MIT",
+  "author": "Naams",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
